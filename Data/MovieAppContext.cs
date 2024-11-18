@@ -29,6 +29,7 @@ namespace MovieApp.Data
                     Title = "Mad Max",
                     Genre = "Sci-fi (Cyberpunk)",
                     ReleaseDate = new DateOnly(1979, 4, 12) ,
+                    Rating = "R",
                     Price = 2.51M,
                 },
                 
@@ -38,6 +39,7 @@ namespace MovieApp.Data
                     Title = "Mad Max: Fury Road",
                     ReleaseDate = new DateOnly(2015, 5, 15),
                     Genre = "Sci-fi (Cyberpunk)",
+                    Rating = "R",
                     Price = 8.43M
                 });
         }
