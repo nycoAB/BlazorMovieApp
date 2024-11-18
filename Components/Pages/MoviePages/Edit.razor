@@ -38,6 +38,11 @@ else
                     <ValidationMessage For="() => Movie.Genre" class="text-danger" />
                 </div>
                 <div class="mb-3">
+                    <label for="rating" class="form-label">Rating:</label>
+                    <InputText id="Rating" @bind-Value="Movie.Rating" class="form-control" />
+                    <ValidationMessage For="() => Movie.Rating" class="text-danger" />
+                </div>
+                <div class="mb-3">
                     <label for="price" class="form-label">Price:</label>
                     <InputNumber id="price" @bind-Value="Movie.Price" class="form-control" />
                     <ValidationMessage For="() => Movie.Price" class="text-danger" />
